@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, "sans-serif";
+}
+
+.container {
+  margin: 50px 100px 0 100px;
+}
+
+/* ----------------------------------------- */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+/* ---------------------------------------- */
+
+.logo-img {
+  width: 8vw;
+}
+
+/* --------------------------------------- */
+
+.list {
+  display: flex;
+  text-align: center;
+}
+
+.list li {
+  list-style: none;
+  padding-left: 3vw;
+  font-family: "Orbitron";
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+
+.list li:first-child {
+  text-decoration: underline;
+}
+
+.list li:first-child:hover {
+  font-size: 25px;
+}
+
+/* -------------------------------------- */
+
+.button-group {
+  width: 11vw;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.search-icon {
+}
+
+.nav-button {
+  padding: 5px 30px 5px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: Orbitron;
+  font-weight: 400;
+}
+
+/* --------------------------------------- */
+
+.absolute-pos {
+  position: absolute;
+}
+
+.hero-container {
+  display: flex;
+}
+
+.hero-container-left {
+  width: 40%;
+  position: relative;
+}
+
+.hero-container-right {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.main-hero-img {
+  width: 75%;
+  z-index: 9999;
+  /* position: absolute; */
+}
+
+.hero-heading {
+  margin-top: 72px;
+  font-family: Orbitron;
+  font-weight: 700;
+  font-size: 54px;
+}
+
+.hero-description {
+  width: 90%;
+}
+
+.button-email {
+  background-color: #fff;
+  font-size: 20px;
+  padding: 5px 10px;
+  border: solid 2px black;
+  border-radius: 8px;
+  font-family: Orbitron;
+}
+
+.button-join {
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 2px 5px 2px;
+  border-radius: 8px;
+  font-family: Orbitron;
+}
+
+.square {
+  position: fixed;
+  left: 225px;
+  bottom: 0;
+  width: 23%;
+}
+
+.globe {
+  width: 4%;
+  left: 52%;
+  top: 150px;
+}
+.star-1 {
+  width: 3%;
+  right: 150px;
+}
+
+.star-2 {
+}
